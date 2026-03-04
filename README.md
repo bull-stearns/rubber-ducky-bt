@@ -1,0 +1,3 @@
+# USB Rubber Ducky (over Bluetooth)
+
+This is a project that once you plug in a USB, the USB Rubber Ducky broadcasts a BLE device that you can connect to and send commands to in order to send the rubber ducky file. It was tested on an Arduino Nano ESP32-S3 along with [ArduinoBLE](https://docs.arduino.cc/libraries/arduinoble/) for handling BLE communication. The communication script is written in Python3 using the [bleak](https://pypi.org/project/bleak/) python library for BLE communication. If you find any bugs, please make a pull request. Please not that not all features were implemented in this library, however most easy-to-implement and usefulish features were implemented (buttons, os detection weren't added, along with some more stuff)
